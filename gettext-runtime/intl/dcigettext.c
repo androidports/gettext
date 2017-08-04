@@ -144,11 +144,7 @@ char *getwd ();
 #  if VMS
 #   define getcwd(buf, max) (getcwd) (buf, max, 0)
 #  else
-#ifdef __clang__
-__attribute__((overloadable)) char *getcwd ();
-#else
 char *getcwd ();
-#endif
 #  endif
 # endif
 # ifndef HAVE_STPCPY
