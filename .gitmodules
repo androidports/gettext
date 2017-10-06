@@ -1,3 +1,4 @@
 [submodule "gnulib"]
 	path = gnulib
-	url = git://git.sv.gnu.org/gnulib.git
+	url = https://github.com/andropenoffie/gnulib.git
+	branch = androidports-0.19.8.1
