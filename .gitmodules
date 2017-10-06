@@ -1,3 +1,4 @@
 [submodule "gnulib"]
 	path = gnulib
 	url = https://github.com/androidports/gnulib.git
+	branch = androidports
